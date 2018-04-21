@@ -1,6 +1,6 @@
 # Node Simple Web Of Trust Api
 
-CUse Node to check for malicious domains in [WOT](https://www.mywot.com/)
+Use Node to check for malicious domains in [WOT](https://www.mywot.com/)
 
 ## Install
 `npm install weboftrust`

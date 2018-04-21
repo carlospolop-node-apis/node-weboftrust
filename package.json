@@ -1,6 +1,6 @@
 {
   "name": "weboftrust",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Easy node implementation to check domains against Web Of Trust ",
   "main": "weboftrust.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carlospolop/weboftrust_api.git"
+    "url": "git+https://github.com/carlospolop-node-apis/node-weboftrust.git"
   },
   "keywords": [
     "api",
@@ -34,9 +34,9 @@
   "author": "Carlos Polop <carlospolop@gmail.com> (https://malwareworld.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/carlospolop/weboftrust_api/issues"
+    "url": "https://github.com/carlospolop-node-apis/node-weboftrust/issues"
   },
-  "homepage": "https://github.com/carlospolop/weboftrust_api#readme",
+  "homepage": "https://github.com/carlospolop-node-apis/node-weboftrust#readme",
   "dependencies": {
     "http": "0.0.0"
   }
