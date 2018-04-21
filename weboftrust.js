@@ -1,4 +1,4 @@
-const request = require('http');
+const https = require('https');
 
 var apiKey = "";
 
@@ -17,7 +17,7 @@ function checkDomains(hosts){
             path: path
         };
         
-          http.request(options, function(res){
+        https.request(options, function(res){
               res.on('data', function(chunk){
                 str += chunk;
               });
