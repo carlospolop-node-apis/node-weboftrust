@@ -4,7 +4,7 @@ var apiKey = "";
 
 function checkDomains(hosts){
     var promise = new Promise(function(resolve, reject) {
-        if (apiKey == "" ) reject(Error("Please set the user and password"));
+        if (apiKey == "" ) reject(Error("Please set the api key using the function setApiKey(KEY)"));
 
         var str = ''
         var path = '/0.4/public_link_json2?hosts=';

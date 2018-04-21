@@ -10,7 +10,7 @@ Use Node to check for malicious domains in [WOT](https://www.mywot.com/)
 ```javascript
 const weboftrust = require('weboftrust');
 
-weboftrust.setApiKey = "<YOUR API KEY>"
+weboftrust.setApiKey("<YOUR API KEY>")
 
 // Use checkDomains([<domain>,<domain>...]) to check that domains against WOT
 // A promise will be returned
